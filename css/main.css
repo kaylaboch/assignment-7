@@ -18,6 +18,8 @@ h2{
   text-align: center;
   position: absolute;
   color: white;
+  top:30%;
+  left:10%;
 }
 nav{
   font-weight: normal;
@@ -45,8 +47,17 @@ nav a{
 .gravel{
   width:100%;
   padding: none;
-  maring: 0 auto;
+  maring: 0;
   position: relative;
+  display:block;
+}
+main{
+  padding: none;
+  margin: 0 auto;
+}
+body{
+  margin:0;
+  padding:0;
 }
 .beetle1{
   width:50%;
@@ -54,20 +65,94 @@ nav a{
   margin: 0 auto;
   padding: none;
 }
+.btn{
+  position: absolute;
+  text-decoration: none;
+  color:white;
+  background-color: #58A601;
+  background-image: linear-gradient(to bottom, #58A601, #275C00);
+  display:inline-block;
+  padding: 0.5em 0.75em;
+  border-radius: 10px;
+  left:17%;
+  top:62%;
+}
+.btn2{
+  text-decoration: none;
+  color:white;
+  background-color: #58A601;
+  background-image: linear-gradient(to bottom, #58A601, #275C00);
+  display:inline-block;
+  padding: 0.5em 0.75em;
+  border-radius: 10px;
+  position: absolute;
+  right:20%;
+  top:62%;
+}
+.btn3{
+  text-decoration: none;
+  color:white;
+  background-color: #58A601;
+  background-image: linear-gradient(to bottom, #58A601, #275C00);
+  display:block;
+  padding: 0.5em 0.75em;
+  border-radius: 10px;
+  position: absolute;
+  left:17%;
+  top:80%;
+}
+.btn4{
+  text-decoration: none;
+  color:white;
+  background-color: #58A601;
+  background-image: linear-gradient(to bottom, #58A601, #275C00);
+  display:block;
+  padding: 0.5em 0.75em;
+  border-radius: 10px;
+  position: absolute;
+  right:20%;
+  top:80%;
+}
 .beetle2{
   width:50%;
   float:right;
   margin: 0 auto;
+  position: relative;
 }
 .beetle3{
   width: 50%;
   float:left;
-
+  position:relative;
 }
 .beetle4{
   width: 50%;
   float:right;
+  position: relative;
 }
 a:hover{
-  background-color: #cc3865;
+  background-color: #933D02;
+
+}
+.footr{
+  width:10%;
+  position: relative;
+  left: 45%;
+}
+.box1{
+  position: relative;
+  height: 100px;
+  padding:0;
+  margin: 0;
+  display:block;
+}
+.box2{
+  position:relative;
+  height:100px
+  padding: 0;
+  margin:0;
+  display: block;
+}
+.foot{
+  background-color: #512200;
+  padding:.5em;
 }
