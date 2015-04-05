@@ -1,158 +1,166 @@
-html{
-  box-sizing: border-box;
-}
-*,*::before, *::after{
-  box-sizing: inherit;
-}
-.masthead{
-  background-image: url("../images/noun.svg"), url("../images/subtle_white_mini_waves.png");
-  background-size: 75px auto, 200px auto;
-  padding: 6em;
-  background-repeat: no-repeat,repeat;
-  background-position: center 10px,left top;
-}
-h1{
-  text-align:center;
-}
-h2{
-  text-align: center;
-  position: absolute;
-  color: white;
-  top:30%;
-  left:10%;
-}
-nav{
-  font-weight: normal;
-  color: white;
-  font-family: "Georgia";
-  background-color: #512200;
-  text-align:center;
-  padding: 1em;
-}
-nav ol{
-  list-style-type: none;
-  margin: 0;
-  padding:0;
-}
-nav li{
-  display: inline-block;
-}
-nav a{
-  display: inline-block;
-  color: white;
-  text-decoration: none;
-  border-radius: 4px;
-  width: 6em;
-}
-.gravel{
-  width:100%;
-  padding: none;
-  maring: 0;
-  position: relative;
-  display:block;
-}
-main{
-  padding: none;
-  margin: 0 auto;
-}
-body{
-  margin:0;
-  padding:0;
-}
-.beetle1{
-  width:50%;
-  float:left;
-  margin: 0 auto;
-  padding: none;
-}
-.btn{
-  position: absolute;
-  text-decoration: none;
-  color:white;
-  background-color: #58A601;
-  background-image: linear-gradient(to bottom, #58A601, #275C00);
-  display:inline-block;
-  padding: 0.5em 0.75em;
-  border-radius: 10px;
-  left:17%;
-  top:62%;
-}
-.btn2{
-  text-decoration: none;
-  color:white;
-  background-color: #58A601;
-  background-image: linear-gradient(to bottom, #58A601, #275C00);
-  display:inline-block;
-  padding: 0.5em 0.75em;
-  border-radius: 10px;
-  position: absolute;
-  right:20%;
-  top:62%;
-}
-.btn3{
-  text-decoration: none;
-  color:white;
-  background-color: #58A601;
-  background-image: linear-gradient(to bottom, #58A601, #275C00);
-  display:block;
-  padding: 0.5em 0.75em;
-  border-radius: 10px;
-  position: absolute;
-  left:17%;
-  top:80%;
-}
-.btn4{
-  text-decoration: none;
-  color:white;
-  background-color: #58A601;
-  background-image: linear-gradient(to bottom, #58A601, #275C00);
-  display:block;
-  padding: 0.5em 0.75em;
-  border-radius: 10px;
-  position: absolute;
-  right:20%;
-  top:80%;
-}
-.beetle2{
-  width:50%;
-  float:right;
-  margin: 0 auto;
-  position: relative;
-}
-.beetle3{
-  width: 50%;
-  float:left;
-  position:relative;
-}
-.beetle4{
-  width: 50%;
-  float:right;
-  position: relative;
-}
-a:hover{
-  background-color: #933D02;
+    html{
+      box-sizing: border-box;
+    }
+    *,*::before, *::after{
+      box-sizing: inherit;
+    }
+    .masthead{
+      background-image: url("../images/noun.svg"), url("../images/subtle_white_mini_waves.png");
+      background-size: 75px auto, 200px auto;
+      padding: 6em;
+      background-repeat: no-repeat,repeat;
+      background-position: center 10px,left top;
+      position: absolute;
+    }
+    h1{
+      text-align:center;
+      position: relative;
+    }
+    h2{
+      text-align: center;
+      position: absolute;
+      color: white;
+      top:30%;
+      left:10%;
+      right:10%;
+      bottom: 10%;
+    }
+    nav{
+      font-weight: normal;
+      color: white;
+      font-family: "Georgia";
+      background-color: #512200;
+      text-align:center;
+      padding: 1em;
 
-}
-.footr{
-  width:10%;
-  position: relative;
-  left: 45%;
-}
-.box1{
-  position: relative;
-  height: 100px;
-  padding:0;
-  margin: 0;
-  display:block;
-}
-.box2{
-  position:relative;
-  height:100px
-  padding: 0;
-  margin:0;
-  display: block;
-}
-.foot{
-  background-color: #512200;
-  padding:.5em;
-}
+    }
+    nav ol{
+      list-style-type: none;
+      margin: 0;
+      padding:0;
+    }
+    nav li{
+      display: inline-block;
+    }
+    nav a{
+      display: inline-block;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      width: 6em;
+    }
+    .gravel{
+      width:100%;
+      padding: none;
+      maring: 0;
+      position: relative;
+      display:block;
+    }
+    main{
+      padding: none;
+      margin: 0 auto;
+    }
+    body{
+      margin:0;
+      padding:0;
+    }
+    .beetle1{
+      width:50%;
+      float:left;
+      margin: 0 auto;
+      padding: none;
+      xposition: relative;
+    }
+    .btn{
+      position: absolute;
+      text-decoration: none;
+      color:white;
+      background-color: #58A601;
+      background-image: linear-gradient(to bottom, #58A601, #275C00);
+      display:inline-block;
+      padding: 0.5em 0.75em;
+      border-radius: 10px;
+      left:20%;
+      bottom:0%;
+
+    }
+    .btn2{
+      text-decoration: none;
+      color:white;
+      background-color: #58A601;
+      background-image: linear-gradient(to bottom, #58A601, #275C00);
+      display:inline-block;
+      padding: 0.5em 0.75em;
+      border-radius: 10px;
+      position: absolute;
+      right:20%;
+      bottom:0%;
+    }
+    .btn3{
+      text-decoration: none;
+      color:white;
+      background-color: #58A601;
+      background-image: linear-gradient(to bottom, #58A601, #275C00);
+      display:block;
+      padding: 0.5em 0.75em;
+      border-radius: 10px;
+      position: absolute;
+      left:20%;
+      bottom:15%;
+    }
+    .btn4{
+      text-decoration: none;
+      color:white;
+      background-color: #58A601;
+      background-image: linear-gradient(to bottom, #58A601, #275C00);
+      display:block;
+      padding: 0.5em 0.75em;
+      border-radius: 10px;
+      position: absolute;
+      right:20%;
+      bottom:15%;
+    }
+    .beetle2{
+      width:50%;
+      float:right;
+      margin: 0 auto;
+    x position: relative;
+    }
+    .beetle3{
+      width: 50%;
+      float:left;
+      xposition:relative;
+    }
+    .beetle4{
+      width: 50%;
+      float:right;
+      xposition: relative;
+    }
+    a:hover{
+      background-color: #933D02;
+
+    }
+    .footr{
+      width:10%;
+      position: relative;
+      left: 45%;
+    }
+    .box1{
+      position: relative;
+      height: 100px;
+      padding:0;
+      margin: 0;
+      display:block;
+    }
+    .box2{
+      position:relative;
+      height:100px
+      padding: 0;
+      margin:0;
+      display: block;
+    }
+    .foot{
+      background-color: #512200;
+      padding:.5em;
+      xposition: relative;
+    }
