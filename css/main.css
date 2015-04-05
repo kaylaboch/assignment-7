@@ -25,6 +25,7 @@
       right:10%;
       bottom: 10%;
       padding: none;
+      display: inline-block;
     }
     nav{
       font-weight: normal;
@@ -33,6 +34,7 @@
       background-color: #512200;
       text-align:center;
       padding: 1em;
+      display: inline- block;
 
     }
     nav ol{
@@ -74,7 +76,7 @@
       float:left;
       margin: 0 auto;
       padding: none;
-      xposition: relative;
+
     }
     .btn{
       position: absolute;
@@ -131,17 +133,17 @@
       width:50%;
       float:right;
       margin: 0 auto;
-    x position: relative;
+
     }
     .beetle3{
       width: 50%;
       float:left;
-      xposition:relative;
+
     }
     .beetle4{
       width: 50%;
       float:right;
-      xposition: relative;
+
     }
     a:hover{
       background-color: #933D02;
@@ -157,6 +159,7 @@
       padding:0;
       margin: 0 auto;
       display:inline-block;
+
     }
     .box2{
       position: relative;
