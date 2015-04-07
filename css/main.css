@@ -137,8 +137,19 @@ html{
     .beetle3{
       width: 50%;
       float:left;
-
     }
+.btn:hover{
+  color: darkgreen;
+    }
+.btn2:hover{
+  color: darkgreen;
+}
+.btn3:hover{
+  color: darkgreen;
+}
+.btn4:hover{
+  color: darkgreen;
+}
     .beetle4{
       width: 50%;
       float:right;
@@ -146,8 +157,8 @@ html{
     }
     a:hover{
       background-color: #933D02;
-
     }
+
     .footr{
       width:10%;
       position: relative;
