@@ -59,13 +59,13 @@ html{
       margin: 0;
       position: relative;
       display:inline-block;
-      background-image: linear-gradient(to bottom, black);
+
     }
     .grav{
       display: inline-block;
       position: relative;
       width:100%;
-      background-image: linear-gradient(to bottom, black, transparent);
+      
     }
     main{
       padding: 0;
@@ -74,6 +74,10 @@ html{
     body{
       margin:0;
       padding:0;
+    }
+    main{
+      padding:0;
+      margin: 0;
     }
     .beetle1{
       width:50%;
@@ -125,7 +129,7 @@ html{
       font-family: 'Dosis', sans-serif;
       font-size: 12px;
     }
-    .btn4{
+.btn4{
       text-decoration: none;
       color:white;
       background-color: #58A601;
@@ -138,21 +142,20 @@ html{
       bottom:5%;
       font-family: 'Dosis', sans-serif;
       font-size: 12px;
-
-    }
-    .beetle2{
-      width:50%;
-      float:right;
-      margin: 0 auto;
-
-    }
-    .beetle3{
-      width: 50%;
-      float:left;
-    }
+}
+.beetle2{
+  width:50%;
+  float:right;
+  margin: 0 auto;
+}
+.beetle3{
+  width: 50%;
+  float:left;
+  margin: 0;
+  }
 .btn:hover{
   background-color: #58A601;
-    }
+}
 .btn2:hover{
   background-color: #58A601;
 }
@@ -169,6 +172,8 @@ html{
     }
     a:hover{
       background-color: #933D02;
+      opacity: .5;
+      color: white;
     }
 
     .footr{
