@@ -15,6 +15,7 @@ html{
     h1{
       text-align:center;
       position: relative;
+      font-family: 'Dosis', sans-serif;
     }
     h2{
       text-align: center;
@@ -24,8 +25,9 @@ html{
       left:10%;
       right:10%;
       bottom: 10%;
-      padding: none;
+      padding: 0;
       display: inline-block;
+      font-family: 'Dosis', sans-serif;
     }
     nav{
       font-weight: normal;
@@ -53,17 +55,17 @@ html{
     }
     .gravel{
       width:100%;
-      padding: none;
-      maring: 0;
+      padding:0;
+      margin: 0;
       position: relative;
-      display:block;
+      display:inline-block;
     }
     .grav{
       display: inline-block;
       position: relative;
     }
     main{
-      padding: none;
+      padding: 0;
       margin: 0 auto;
     }
     body{
@@ -74,7 +76,7 @@ html{
       width:50%;
       float:left;
       margin: 0 auto;
-      padding: none;
+      padding: 0;
 
     }
     .btn{
@@ -88,6 +90,7 @@ html{
       border-radius: 10px;
       left:20%;
       bottom: 5%;
+      font-family: 'Dosis', sans-serif;
 
     }
     .btn2{
@@ -101,6 +104,7 @@ html{
       position: absolute;
       right:20%;
       bottom:5%;
+      font-family: 'Dosis', sans-serif;
 
     }
     .btn3{
@@ -114,6 +118,7 @@ html{
       position: absolute;
       left:20%;
       bottom: 5%;
+      font-family: 'Dosis', sans-serif;
     }
     .btn4{
       text-decoration: none;
@@ -126,6 +131,7 @@ html{
       position: absolute;
       right:20%;
       bottom:5%;
+      font-family: 'Dosis', sans-serif;
 
     }
     .beetle2{
@@ -182,6 +188,5 @@ html{
     .foot{
       background-color: #512200;
       padding:.5em;
-      xposition: relative;
       width: 100%;
     }
